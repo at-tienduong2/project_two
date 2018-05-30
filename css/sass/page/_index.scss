@@ -61,4 +61,23 @@
   margin: 0;
   padding: 150px 0 150px 0;
   background: url(../assets/images/64.jpg) top center repeat;
+  .content {
+    .content-title {
+      @extend %content-title;
+    }
+    .under-line {
+      @extend %under-line;
+    }
+    .second-title {
+      font-size: 22px;
+      line-height: 25px;
+      margin-bottom: 18px;
+    }
+    .content-lists {
+      .icon-check {
+        color: $color-primary;
+        margin-right: 5px;
+      }
+    }
+  }
 }

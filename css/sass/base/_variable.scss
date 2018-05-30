@@ -1,7 +1,7 @@
 /*Font*/
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*Color*/
@@ -14,7 +14,68 @@ $color-d: #f5f5f5;
 $color-e: #101010;
 
 
-/*Font*/
-$icomoon-font-path: "fonts" !default;
+/*Padding*/
+$value : 5px;
 
-$iconf-photo-gallery: "\e626";
+$sizeList : 0, 1, 2, 3, 4, 5, 6, 7, 8;
+
+@each $size in $sizeList {
+  .pd--#{$size} {
+    padding: $value * $size !important;
+  }
+}
+
+@each $size in $sizeList {
+  .pd-l--#{$size} {
+    padding-left: $value * $size !important;
+  }
+}
+
+@each $size in $sizeList {
+  .pd-r--#{$size} {
+    padding-right: $value * $size !important;
+  }
+}
+
+@each $size in $sizeList {
+  .pd-t--#{$size} {
+    padding-top: $value * $size !important;
+  }
+}
+
+@each $size in $sizeList {
+  .pd-b--#{$size} {
+    padding-bottom: $value * $size !important;
+  }
+}
+
+// margin
+@each $size in $sizeList {
+  .mg--#{$size} {
+    margin: $value * $size !important;
+  }
+}
+
+@each $size in $sizeList {
+  .mg-t--#{$size} {
+    margin-top: $value * $size !important;
+  }
+}
+
+@each $size in $sizeList {
+  .mg-l--#{$size} {
+    margin-left: $value * $size !important;
+  }
+}
+
+@each $size in $sizeList {
+  .mg-b--#{$size} {
+    margin-bottom: $value * $size !important;
+  }
+}
+
+@each $size in $sizeList {
+  .mg-r--#{$size} {
+    margin-right: $value * $size !important;
+  }
+}
