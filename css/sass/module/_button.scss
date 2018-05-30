@@ -1,0 +1,10 @@
+$value : 5px;
+
+$sizeList : no, xs, ss, s, m , l, ll, xl;
+
+// @each $size in $sizeList {
+//   $i: 
+//   .pd--#{$size} {
+//     padding: $value * $size !important;
+//   }
+// }

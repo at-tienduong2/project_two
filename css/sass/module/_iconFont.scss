@@ -1,0 +1,636 @@
+
+@font-face {
+	font-family: 'Pe-icon-7-stroke';
+	src:url('../assets/fonts/Pe-icon-7-stroke.eot?d7yf1v');
+	src:url('../assets/fonts/Pe-icon-7-stroke.eot?#iefixd7yf1v') format('embedded-opentype'),
+		url('../assets/fonts/Pe-icon-7-stroke.woff?d7yf1v') format('woff'),
+		url('../assets/fonts/Pe-icon-7-stroke.ttf?d7yf1v') format('truetype'),
+		url('../assets/fonts/Pe-icon-7-stroke.svg?d7yf1v#Pe-icon-7-stroke') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="fontf-"], [class*=" fontf-"] {
+	font-family: 'Pe-icon-7-stroke';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-medium {
+	font-size: 60px;
+}
+
+.fontf-photo-gallery:before{
+	content: "\e626";
+}
+.fontf-cart:before {
+	content: "\e66e";
+}
+.fontf-search:before {
+	content: "\e618";
+}
+.fontf-lock:before {
+	content: "\e63f";
+}
+
+
+.fontf-back-2:before {
+	content: "\e6ac";
+}
+.fontf-bandaid:before {
+	content: "\e6ad";
+}
+.fontf-car:before {
+	content: "\e6ae";
+}
+.fontf-diamond:before {
+	content: "\e6af";
+}
+.fontf-door-lock:before {
+	content: "\e6b0";
+}
+.fontf-eyedropper:before {
+	content: "\e6b1";
+}
+.fontf-female:before {
+	content: "\e6b2";
+}
+.fontf-gym:before {
+	content: "\e6b3";
+}
+.fontf-hammer:before {
+	content: "\e6b4";
+}
+.fontf-headphones:before {
+	content: "\e6b5";
+}
+.fontf-helm:before {
+	content: "\e6b6";
+}
+.fontf-hourglass:before {
+	content: "\e6b7";
+}
+.fontf-leaf:before {
+	content: "\e6b8";
+}
+.fontf-magic-wand:before {
+	content: "\e6b9";
+}
+.fontf-male:before {
+	content: "\e6ba";
+}
+.fontf-map-2:before {
+	content: "\e6bb";
+}
+.fontf-next-2:before {
+	content: "\e6bc";
+}
+.fontf-paint-bucket:before {
+	content: "\e6bd";
+}
+.fontf-pendrive:before {
+	content: "\e6be";
+}
+.fontf-photo:before {
+	content: "\e6bf";
+}
+.fontf-piggy:before {
+	content: "\e6c0";
+}
+.fontf-plugin:before {
+	content: "\e6c1";
+}
+.fontf-refresh-2:before {
+	content: "\e6c2";
+}
+.fontf-rocket:before {
+	content: "\e6c3";
+}
+.fontf-settings:before {
+	content: "\e6c4";
+}
+.fontf-shield:before {
+	content: "\e6c5";
+}
+.fontf-smile:before {
+	content: "\e6c6";
+}
+.fontf-usb:before {
+	content: "\e6c7";
+}
+.fontf-vector:before {
+	content: "\e6c8";
+}
+.fontf-wine:before {
+	content: "\e6c9";
+}
+.fontf-cloud-upload:before {
+	content: "\e68a";
+}
+.fontf-cash:before {
+	content: "\e68c";
+}
+.fontf-close:before {
+	content: "\e680";
+}
+.fontf-bluetooth:before {
+	content: "\e68d";
+}
+.fontf-cloud-download:before {
+	content: "\e68b";
+}
+.fontf-way:before {
+	content: "\e68e";
+}
+.fontf-close-circle:before {
+	content: "\e681";
+}
+.fontf-id:before {
+	content: "\e68f";
+}
+.fontf-angle-up:before {
+	content: "\e682";
+}
+.fontf-wristwatch:before {
+	content: "\e690";
+}
+.fontf-angle-up-circle:before {
+	content: "\e683";
+}
+.fontf-world:before {
+	content: "\e691";
+}
+.fontf-angle-right:before {
+	content: "\e684";
+}
+.fontf-volume:before {
+	content: "\e692";
+}
+.fontf-angle-right-circle:before {
+	content: "\e685";
+}
+.fontf-users:before {
+	content: "\e693";
+}
+.fontf-angle-left:before {
+	content: "\e686";
+}
+.fontf-user-female:before {
+	content: "\e694";
+}
+.fontf-angle-left-circle:before {
+	content: "\e687";
+}
+.fontf-up-arrow:before {
+	content: "\e695";
+}
+.fontf-angle-down:before {
+	content: "\e688";
+}
+.fontf-switch:before {
+	content: "\e696";
+}
+.fontf-angle-down-circle:before {
+	content: "\e689";
+}
+.fontf-scissors:before {
+	content: "\e697";
+}
+.fontf-wallet:before {
+	content: "\e600";
+}
+.fontf-safe:before {
+	content: "\e698";
+}
+.fontf-volume2:before {
+	content: "\e601";
+}
+.fontf-volume1:before {
+	content: "\e602";
+}
+.fontf-voicemail:before {
+	content: "\e603";
+}
+.fontf-video:before {
+	content: "\e604";
+}
+.fontf-user:before {
+	content: "\e605";
+}
+.fontf-upload:before {
+	content: "\e606";
+}
+.fontf-unlock:before {
+	content: "\e607";
+}
+.fontf-umbrella:before {
+	content: "\e608";
+}
+.fontf-trash:before {
+	content: "\e609";
+}
+.fontf-tools:before {
+	content: "\e60a";
+}
+.fontf-timer:before {
+	content: "\e60b";
+}
+.fontf-ticket:before {
+	content: "\e60c";
+}
+.fontf-target:before {
+	content: "\e60d";
+}
+.fontf-sun:before {
+	content: "\e60e";
+}
+.fontf-study:before {
+	content: "\e60f";
+}
+.fontf-stopwatch:before {
+	content: "\e610";
+}
+.fontf-star:before {
+	content: "\e611";
+}
+.fontf-speaker:before {
+	content: "\e612";
+}
+.fontf-signal:before {
+	content: "\e613";
+}
+.fontf-shuffle:before {
+	content: "\e614";
+}
+.fontf-shopbag:before {
+	content: "\e615";
+}
+.fontf-share:before {
+	content: "\e616";
+}
+.fontf-server:before {
+	content: "\e617";
+}
+.fontf-film:before {
+	content: "\e6a5";
+}
+.fontf-science:before {
+	content: "\e619";
+}
+.fontf-disk:before {
+	content: "\e6a6";
+}
+.fontf-ribbon:before {
+	content: "\e61a";
+}
+.fontf-repeat:before {
+	content: "\e61b";
+}
+.fontf-refresh:before {
+	content: "\e61c";
+}
+.fontf-add-user:before {
+	content: "\e6a9";
+}
+.fontf-refresh-cloud:before {
+	content: "\e61d";
+}
+.fontf-paperclip:before {
+	content: "\e69c";
+}
+.fontf-radio:before {
+	content: "\e61e";
+}
+.fontf-note2:before {
+	content: "\e69d";
+}
+.fontf-print:before {
+	content: "\e61f";
+}
+.fontf-network:before {
+	content: "\e69e";
+}
+.fontf-prev:before {
+	content: "\e620";
+}
+.fontf-mute:before {
+	content: "\e69f";
+}
+.fontf-power:before {
+	content: "\e621";
+}
+.fontf-medal:before {
+	content: "\e6a0";
+}
+.fontf-portfolio:before {
+	content: "\e622";
+}
+.fontf-like2:before {
+	content: "\e6a1";
+}
+.fontf-plus:before {
+	content: "\e623";
+}
+.fontf-left-arrow:before {
+	content: "\e6a2";
+}
+.fontf-play:before {
+	content: "\e624";
+}
+.fontf-key:before {
+	content: "\e6a3";
+}
+.fontf-plane:before {
+	content: "\e625";
+}
+.fontf-joy:before {
+	content: "\e6a4";
+}
+.fontf-photo-gallery:before {
+	content: "\e626";
+}
+.fontf-pin:before {
+	content: "\e69b";
+}
+.fontf-phone:before {
+	content: "\e627";
+}
+.fontf-plug:before {
+	content: "\e69a";
+}
+.fontf-pen:before {
+	content: "\e628";
+}
+.fontf-right-arrow:before {
+	content: "\e699";
+}
+.fontf-paper-plane:before {
+	content: "\e629";
+}
+.fontf-delete-user:before {
+	content: "\e6a7";
+}
+.fontf-paint:before {
+	content: "\e62a";
+}
+.fontf-bottom-arrow:before {
+	content: "\e6a8";
+}
+.fontf-notebook:before {
+	content: "\e62b";
+}
+.fontf-note:before {
+	content: "\e62c";
+}
+.fontf-next:before {
+	content: "\e62d";
+}
+.fontf-news-paper:before {
+	content: "\e62e";
+}
+.fontf-musiclist:before {
+	content: "\e62f";
+}
+.fontf-music:before {
+	content: "\e630";
+}
+.fontf-mouse:before {
+	content: "\e631";
+}
+.fontf-more:before {
+	content: "\e632";
+}
+.fontf-moon:before {
+	content: "\e633";
+}
+.fontf-monitor:before {
+	content: "\e634";
+}
+.fontf-micro:before {
+	content: "\e635";
+}
+.fontf-menu:before {
+	content: "\e636";
+}
+.fontf-map:before {
+	content: "\e637";
+}
+.fontf-map-marker:before {
+	content: "\e638";
+}
+.fontf-mail:before {
+	content: "\e639";
+}
+.fontf-mail-open:before {
+	content: "\e63a";
+}
+.fontf-mail-open-file:before {
+	content: "\e63b";
+}
+.fontf-magnet:before {
+	content: "\e63c";
+}
+.fontf-loop:before {
+	content: "\e63d";
+}
+.fontf-look:before {
+	content: "\e63e";
+}
+
+.fontf-lintern:before {
+	content: "\e640";
+}
+.fontf-link:before {
+	content: "\e641";
+}
+.fontf-like:before {
+	content: "\e642";
+}
+.fontf-light:before {
+	content: "\e643";
+}
+.fontf-less:before {
+	content: "\e644";
+}
+.fontf-keypad:before {
+	content: "\e645";
+}
+.fontf-junk:before {
+	content: "\e646";
+}
+.fontf-info:before {
+	content: "\e647";
+}
+.fontf-home:before {
+	content: "\e648";
+}
+.fontf-help2:before {
+	content: "\e649";
+}
+.fontf-help1:before {
+	content: "\e64a";
+}
+.fontf-graph3:before {
+	content: "\e64b";
+}
+.fontf-graph2:before {
+	content: "\e64c";
+}
+.fontf-graph1:before {
+	content: "\e64d";
+}
+.fontf-graph:before {
+	content: "\e64e";
+}
+.fontf-global:before {
+	content: "\e64f";
+}
+.fontf-gleam:before {
+	content: "\e650";
+}
+.fontf-glasses:before {
+	content: "\e651";
+}
+.fontf-gift:before {
+	content: "\e652";
+}
+.fontf-folder:before {
+	content: "\e653";
+}
+.fontf-flag:before {
+	content: "\e654";
+}
+.fontf-filter:before {
+	content: "\e655";
+}
+.fontf-file:before {
+	content: "\e656";
+}
+.fontf-expand1:before {
+	content: "\e657";
+}
+.fontf-exapnd2:before {
+	content: "\e658";
+}
+.fontf-edit:before {
+	content: "\e659";
+}
+.fontf-drop:before {
+	content: "\e65a";
+}
+.fontf-drawer:before {
+	content: "\e65b";
+}
+.fontf-download:before {
+	content: "\e65c";
+}
+.fontf-display2:before {
+	content: "\e65d";
+}
+.fontf-display1:before {
+	content: "\e65e";
+}
+.fontf-diskette:before {
+	content: "\e65f";
+}
+.fontf-date:before {
+	content: "\e660";
+}
+.fontf-cup:before {
+	content: "\e661";
+}
+.fontf-culture:before {
+	content: "\e662";
+}
+.fontf-crop:before {
+	content: "\e663";
+}
+.fontf-credit:before {
+	content: "\e664";
+}
+.fontf-copy-file:before {
+	content: "\e665";
+}
+.fontf-config:before {
+	content: "\e666";
+}
+.fontf-compass:before {
+	content: "\e667";
+}
+.fontf-comment:before {
+	content: "\e668";
+}
+.fontf-coffee:before {
+	content: "\e669";
+}
+.fontf-cloud:before {
+	content: "\e66a";
+}
+.fontf-clock:before {
+	content: "\e66b";
+}
+.fontf-check:before {
+	content: "\e66c";
+}
+.fontf-chat:before {
+	content: "\e66d";
+}
+.fontf-camera:before {
+	content: "\e66f";
+}
+.fontf-call:before {
+	content: "\e670";
+}
+.fontf-calculator:before {
+	content: "\e671";
+}
+.fontf-browser:before {
+	content: "\e672";
+}
+.fontf-box2:before {
+	content: "\e673";
+}
+.fontf-box1:before {
+	content: "\e674";
+}
+.fontf-bookmarks:before {
+	content: "\e675";
+}
+.fontf-bicycle:before {
+	content: "\e676";
+}
+.fontf-bell:before {
+	content: "\e677";
+}
+.fontf-battery:before {
+	content: "\e678";
+}
+.fontf-ball:before {
+	content: "\e679";
+}
+.fontf-back:before {
+	content: "\e67a";
+}
+.fontf-attention:before {
+	content: "\e67b";
+}
+.fontf-anchor:before {
+	content: "\e67c";
+}
+.fontf-albums:before {
+	content: "\e67d";
+}
+.fontf-alarm:before {
+	content: "\e67e";
+}
+.fontf-airplay:before {
+	content: "\e67f";
+}

@@ -1,0 +1,133 @@
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address,
+del, em, img, small, strong, b, u, i, hr,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+button,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  word-wrap: break-word; }
+
+html {
+  line-height: 1; }
+
+ol, ul, li {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: inherit;
+  font-weight: inherit;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+
+a {
+  display: block; }
+
+article, aside, details, figure, footer, header, menu, nav, section, summary {
+  display: block; }
+
+a img {
+  border: none; }
+
+button:focus {
+  outline: none; }
+
+span {
+  display: block; }
+
+/*Font*/
+body {
+  font-family: 'Lato', sans-serif; }
+
+/*Color*/
+/*Font*/
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: normal;
+  font-style: normal; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+img {
+  max-width: 100%;
+  vertical-align: middle; }
+
+a:focus, button:focus, a:focus {
+  outline: none; }
+
+.header-full {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #ffffff; }
+
+.container-full {
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+
+.nopadding {
+  padding: 0 !important; }
+
+.nomargin {
+  margin: 0 !important; }
+
+.mrg-b10 {
+  margin-bottom: 10px; }
+
+.mrg-b20 {
+  margin-bottom: 20px; }
+
+.mrg-b30 {
+  margin-bottom: 30px; }
+
+.pd-r10 {
+  padding-right: 10px; }
+
+.d-flex {
+  display: flex; }
+
+.txt-center {
+  text-align: center; }
+
+.txt-uppercase {
+  text-transform: uppercase; }
+
+.white {
+  color: #ffffff; }
+
+.bg-primary {
+  background-color: #a9cd2e !important; }
+
+.bg-black {
+  background-color: #25292e !important; }
+
+.active {
+  color: #a9cd2e; }
+
+.font-16 {
+  font-size: 16px; }
+
+.read-more:hover {
+  color: #101010; }

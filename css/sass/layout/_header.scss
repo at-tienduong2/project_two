@@ -1,0 +1,47 @@
+.header {
+  background-color: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+  &.sticky-header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(2, 2, 3, 0.8);
+  }
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    .logo {
+      margin-top: 20px;
+    }
+  }
+  .main-menu {
+    .menu-item {
+      text-transform: uppercase;
+    }
+  }
+  .top_nav {
+    .search-parent {
+      .icon-search {
+        font-size: 17px;
+      }
+    }
+    .cart-parent {
+      .number {
+        background-color: $color-primary;
+        width: 17px;
+        height: 17px;
+        line-height: 1.5;
+        font-size: 12px;
+        text-align: center;
+        border-radius: 50%;
+      }
+    }
+  }
+}
+.link-menu {
+  padding: 35px 15px;
+  font-size: 14px;
+  line-height: 20px;
+  color: $color-a
+}

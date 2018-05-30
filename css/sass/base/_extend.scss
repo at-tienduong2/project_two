@@ -1,0 +1,16 @@
+%clearfix {
+  &::after {
+    clear: both;
+    content: '.';
+    display: block;
+    visibility: hidden;
+    height: 0;
+  }
+}
+
+%content-title {
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 16px;
+  font-style: normal;
+}
