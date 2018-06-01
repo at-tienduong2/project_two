@@ -41,8 +41,9 @@ a {
 article, aside, details, figure, footer, header, menu, nav, section, summary {
   display: block; }
 
-a img {
-  border: none; }
+img {
+  border: none;
+  display: block; }
 
 button:focus {
   outline: none; }
@@ -332,12 +333,6 @@ body {
   margin-bottom: 16px;
   font-style: normal; }
 
-.offer-services .content .under-line {
-  width: 12%;
-  height: 2px;
-  margin: 15px auto 0 auto;
-  background-color: #a9cd2e; }
-
 * {
   margin: 0;
   padding: 0; }
@@ -357,8 +352,7 @@ p {
   margin-bottom: 10px; }
 
 img {
-  max-width: 100%;
-  vertical-align: middle; }
+  max-width: 100%; }
 
 a:focus, button:focus, a:focus {
   outline: none; }
@@ -373,29 +367,14 @@ a:focus, button:focus, a:focus {
   padding-left: 15px;
   padding-right: 15px; }
 
-.nopadding {
-  padding: 0 !important; }
+.border-5 {
+  border-radius: 5px; }
 
-.nomargin {
-  margin: 0 !important; }
+.border-10 {
+  border-radius: 10px; }
 
-.mrg-b10 {
-  margin-bottom: 10px; }
-
-.mrg-b20 {
-  margin-bottom: 20px; }
-
-.mrg-b30 {
-  margin-bottom: 30px; }
-
-.no-mrgl {
-  margin-left: 0 !important; }
-
-.pd-r10 {
-  padding-right: 10px; }
-
-.pd-b10 {
-  padding-bottom: 10px; }
+.border-20 {
+  border-radius: 20px; }
 
 .d-flex {
   display: flex; }
@@ -421,6 +400,10 @@ a:focus, button:focus, a:focus {
 .font-16 {
   font-size: 16px; }
 
+.width-50 {
+  width: 50%;
+  margin: auto; }
+
 .read-more:hover {
   color: #101010; }
 
@@ -429,6 +412,25 @@ a:focus, button:focus, a:focus {
   font-weight: 600;
   line-height: 40px;
   margin-bottom: 3px; }
+
+.under-line {
+  width: 12%;
+  height: 2px;
+  margin: 15px auto 0 auto;
+  background-color: #a9cd2e; }
+
+.bg-opacity-8 {
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.opacity-5 {
+  opacity: 0.5; }
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, rgba(76, 76, 76, 0) 0%, rgba(38, 38, 38, 0.99) 98%, #262626 99%); }
 
 @font-face {
   font-family: 'Pe-icon-7-stroke';
@@ -1058,18 +1060,23 @@ a:focus, button:focus, a:focus {
 .fontf-airplay:before {
   content: "\e67f"; }
 
+.col-md-3 {
+  width: 25%;
+  padding-left: 15px;
+  padding-right: 15px; }
+
 .col-md-4 {
   width: 33.333333%;
   padding-right: 15px;
   padding-left: 15px; }
 
-.col-md-7 {
-  width: 58.33333333%;
+.col-md-5 {
+  width: 41.66666667%;
   padding-right: 15px;
   padding-left: 15px; }
 
-.col-md-5 {
-  width: 41.66666667%;
+.col-md-7 {
+  width: 58.33333333%;
   padding-right: 15px;
   padding-left: 15px; }
 
@@ -1080,8 +1087,16 @@ a:focus, button:focus, a:focus {
   vertical-align: middle;
   white-space: nowrap;
   display: inline-block;
-  padding: 10px 30px;
-  border-radius: 5px; }
+  background-color: #a9cd2e;
+  border: 1px solid transparent; }
+  .btn-primary:hover {
+    background-color: #101010; }
+
+.btn-medium {
+  padding: 10px 30px; }
+
+.btn-large {
+  padding: 10px 36px; }
 
 .container {
   max-width: 1200px;
@@ -1180,3 +1195,33 @@ a:focus, button:focus, a:focus {
   .offer-services .content .content-lists .icon-check {
     color: #a9cd2e;
     margin-right: 5px; }
+
+.our-services {
+  background-image: url("../assets/images/parallax/7.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%; }
+  .our-services .services-container {
+    padding: 150px 0; }
+    .our-services .services-container .des-content {
+      padding-bottom: 120px; }
+    .our-services .services-container .item {
+      transition: all 0.3s ease-out 0s;
+      border-radius: 10px;
+      width: 100%;
+      position: relative;
+      overflow: hidden; }
+      .our-services .services-container .item:hover {
+        transform: translateY(-8px);
+        box-shadow: 1px 4px 20px -2px rgba(0, 0, 0, 0.2); }
+      .our-services .services-container .item .content {
+        padding: 260px 0 0 0; }
+        .our-services .services-container .item .content .title {
+          font-size: 22px;
+          line-height: 30px;
+          position: relative;
+          padding: 0 40px;
+          transition: all 0.3s ease-out 0s; }
+          .our-services .services-container .item .content .title:hover {
+            transform: translateY(-35px); }

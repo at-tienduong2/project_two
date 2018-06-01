@@ -5,6 +5,17 @@
   vertical-align: middle;
   white-space: nowrap;
   display: inline-block;
+  background-color: $color-primary;
+  border: 1px solid transparent;
+  &:hover {
+    background-color: $color-c;
+  }
+}
+
+.btn-medium {
   padding: 10px 30px;
-  border-radius: 5px;
+}
+
+.btn-large {
+  padding: 10px 36px;
 }
